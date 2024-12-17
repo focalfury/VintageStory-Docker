@@ -2,8 +2,8 @@
 FROM ubuntu:latest AS downloaded
 WORKDIR /downloads
 
-ARG VERSION="1.18.13"
-ARG RELEASE_TYPE="stable"
+ARG VERSION="1.20.0-rc.5"
+ARG RELEASE_TYPE="unstable"
 
 RUN apt update
 RUN apt install -y wget
