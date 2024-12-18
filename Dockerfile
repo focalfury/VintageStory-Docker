@@ -22,4 +22,5 @@ VOLUME [ "/vintagestory/data" ]
 RUN chmod +x ./VintagestoryServer
 
 EXPOSE 42420/tcp
+EXPOSE 42420/udp
 CMD ./VintagestoryServer --dataPath ./data
